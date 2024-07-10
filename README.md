@@ -82,7 +82,7 @@ Install prerequisite python packages
 
 Run the uvicorn server
 ``` sh
-sh -c "uvicorn run:app --reload --port=8001 --host=0.0.0.0
+uvicorn run:app --reload --port=8001 --host=0.0.0.0
 ```
 
 Open new terminal and change the directory to the cloned repository and then navigate to the `client` directory
