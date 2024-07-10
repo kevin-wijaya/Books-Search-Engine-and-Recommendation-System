@@ -1,0 +1,6 @@
+.venv
+research
+linux
+poetry.lock
+pyproject.toml
+__pycache__/

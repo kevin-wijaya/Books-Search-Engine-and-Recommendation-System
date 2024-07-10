@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "b-sers"
+version = "1.0.0"
+description = "B-SERS: Books Search Engine and Recommendation System"
+authors = ["Kevin Wijaya <tokevinwijaya@gmail.com>"]
+license = "GPL-3.0 license"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+ipykernel = "^6.29.4"
+selenium = "^4.22.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+nltk = "^3.8.1"
+rank-bm25 = "^0.2.2"
+numpy = "1.26.4"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+fastapi-csrf-protect = "^0.3.4"
+scikit-learn = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

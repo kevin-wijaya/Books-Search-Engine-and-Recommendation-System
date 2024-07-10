@@ -1,0 +1,27 @@
+{
+  "name": "b-sers",
+  "version": "1.0.0",
+  "description": "B-SERS: Books Search Engine and Recommendation System",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "webpack",
+    "css": "postcss src/styles/main.css -o .dist/bundle.css --watch",
+    "build": "set PROD_ENV=true && webpack && set PROD_ENV=true && postcss src/styles/main.css -o .dist/bundle.min.css"
+  },
+  "keywords": ["BM25 Okapi", "multi-features weighting", "content-base recommendation"],
+  "author": "Kevin Wijaya <tokevinwijaya@gmail.com>",
+  "license": "GPL-3.0 license",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "axios": "^1.7.2",
+    "cssnano": "^7.0.4",
+    "html-webpack-plugin": "^5.6.0",
+    "jquery": "^3.7.1",
+    "postcss": "^8.4.39",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.4",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
